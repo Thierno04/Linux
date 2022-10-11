@@ -1,0 +1,7 @@
+The pipe and tee commands are used to pipe two streams of data together and the xargs command is used to process a list of files one at a time. This is a very useful command for scripting and on Linux systems it can be used to load libraries, parse configuration files or process command line arguments.
+
+This is a very useful command for tasks such as filtering text output or the combined operations of multiple commands in a single line of code.
+
+The Linux pipe and tee commands are two powerful tools you can use to manipulate files and streams.
+
+The Linux pipe and tee commands are used to copy files from one location to another. You can also use the Xargs command, which is used to automatically execute commands after a number of arguments have been supplied.
