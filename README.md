@@ -11,6 +11,6 @@ You can give simple orders to "the computer" and the shell communicates with the
 
 #### Two main shell families:
 
-*The text shell: Bash
+1) The text shell: Bash
 
-*The graphical shell: Window, KDE, Unity...
+2) The graphical shell: Window, KDE, Unity...
