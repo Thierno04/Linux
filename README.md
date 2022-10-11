@@ -8,3 +8,7 @@ will be in charge of communicating with the hardware and using the hardware reso
 So linux is the kernel of the system and the tool that allows us to communicate with the kernel and to access it indirectly to use it and this tool is called the shell and thanks to the shell we ensure that the orders that 'we will give the computer will be interpreted correctly by the kernel and that we will not have to do things as indicated to succeed in accessing the hardware.
 
 You can give simple orders to "the computer" and the shell communicates with the kernel to execute its orders.
+
+#### Two main shell families:
+The text shell: Bash
+The graphical shell: Window, KDE, Unity...
