@@ -1,3 +1,13 @@
+vi editor
+========
+A text editor which enables you to create and manipulate data in linux file
+
+===============
+ex: vi myfile.txt
+===============
+
+Most common keys
+
 i - insert
 
 O - insert ont next line
