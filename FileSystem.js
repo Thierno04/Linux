@@ -1,9 +1,23 @@
+1) Types of File System
 
-FS Structure Description
+* ext3
+* ext4
+* XFS
+* FAT
+* BTRFS etc...
+Ex: (lsblk -f)
+
+2) XFS(Extents File System)
+
+XFS is 64bit high performance FS
+Works well with large files
+
+
+3) FS Structure Description
 
 /boot  ===> Having files use by boot loader(ex:grub)
 
-/dev   ===> System devices files(ex:speaker, keyboard, etc...)
+/dev   ===> System devices files(ex:speaker, keyboard etc...)
 
 /etc   ===> Have configuration files
 
