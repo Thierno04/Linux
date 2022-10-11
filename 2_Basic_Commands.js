@@ -39,3 +39,13 @@ less result.txt: Displays the result of a file but this file cannot be modified 
 ls -alh|less: Use the result of one command to pass to another command without the need to pass to a file.
 
 vim or vi: Text editor. (see the i=write, :wq or :wq!= save and quit or force quit tools, :q or :q!= quit or force quit tools).
+
+cat: Displays what is inside the file. (e.g. cat textfile.txt).
+
+head: Displays the first sentence of the file. (ex: head -1 textfile.txt).
+
+tail: Displays the tail of text in the file. (ex: tail -2 textfile.txt).
+
+sort: Allows you to sort the words in the textfile. (ex: sort textfile.txt).
+
+uniq: Allows to avoid the repetition of the text. (ex: sort textfile.txt | uniq).
