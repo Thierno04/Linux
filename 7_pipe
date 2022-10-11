@@ -60,7 +60,7 @@ Boon
 Deniz 	
 ==================
 
-cat people.txt name.txt | sort
+cat people.txt names.txt | sort
 cat names.txt | sort | uniq
 cat people.txt | head -10 
 cat people.txt | head -10 | tail 3
