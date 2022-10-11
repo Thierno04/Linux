@@ -1,50 +1,41 @@
 pwd: Print Working Directory.
 
-ls: Voir les contenues ou attributs.
+ls: View contents or attributes.
 
-ls -l: Affiche les elements(dossiers ou fichiers, date de modification, la tail sur le disque).
+ls -l: Display items (folders or files, modification date, size on disk).
 
-cd: Est la commande qui change la direction c'est-a-dire change le repertoire en cours vers la racine.
+cd: Is the command that changes the direction ie changes the current directory to the root.
 
-cd /home: Envoie vers la racine.
+cd /home: Send to root.
 
-man: Permet de consulter manuellement les details des commandes. (Pour chercher le mot on utilise / et n pour le suivant).
+man: Allows you to manually view order details. (To search for the word use / and n for the next one).
 
-ls -lh: Affiche les elements.
+ls -lh: Display elements.
 
-ls -la: Affiche tous les fichiers ou dossiers cachés et se caracterise par le point.
+ls -la: Shows all hidden files or folders and is characterized by the dot.
 
-. : Fait reference au dossier courant.
+. : Refers to the current folder.
 
-.. Permets de faire reference au dossier parent.
+.. Allows to refer to the parent folder.
 
-ls -a: Affiche tous les dossiers cachés et les rendent visibles.
+ls -a: Show all hidden folders and make them visible.
 
-mv: Change le nom de l'objet qu'ont veut deplacer. (ex: mv file1 file2).
+mv: Changes the name of the object we want to move. (ex: mv file1 file2).
 
-mkdir: Make directories. (ex: mkdir folder).
+mkdir: Make directories. (eg: mkdir folder).
 
-rmdir: Permet d'effacer un dossier. (ex: rmdir folder or rm -r folder).
+rmdir: Delete a folder. (eg: rmdir folder or rm -r folder).
 
-rm -r: Permet d'effacer un dossier ou un fichier. (ex: rm -r folder or rm -r file).
+rm -r: Delete a folder or file. (ex: rm -r folder or rm -r file).
 
-cp: Met le dossier qui va faloire fournir une source et une destination. (ex: cp -r source destination).
+cp: Sets the folder that will provide a source and a destination. (ex: cp -r source destination).
 
-ls alh > result.txt : Permet d'envoyer les -alh vers un fichier result.txt.
+ls alh > result.txt: Allows to send the -alh to a file result.txt.
 
-ls -l result.txt: Permet d'afficher la tail du fichier.
+ls -l result.txt: Displays the tail of the file.
 
-less result.txt: Affiche le resultat d'un ficher mais ce ficher ne peut pas etre modifier et ni ecrire pour quitter on tape la touche q.
+less result.txt: Displays the result of a file but this file cannot be modified and cannot be written to quit by typing the q key.
 
-ls -alh|less: Utilise le resultat d'une commande pour le passer a une autre commande sans besoin de passer a un fichier.
+ls -alh|less: Use the result of one command to pass to another command without the need to pass to a file.
 
-vim or vi: Editeur du text. (voir les outils i=ecrire, :wq or :wq!= enregistrer et quitter, :q or :q!= quitter ou force a quitter).
-
-
-
-
-
-
-
-
-
+vim or vi: Text editor. (see the i=write, :wq or :wq!= save and quit or force quit tools, :q or :q!= quit or force quit tools).
