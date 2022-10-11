@@ -5,3 +5,11 @@ This is a very useful command for tasks such as filtering text output or the com
 The Linux pipe and tee commands are two powerful tools you can use to manipulate files and streams.
 
 The Linux pipe and tee commands are used to copy files from one location to another. You can also use the Xargs command, which is used to automatically execute commands after a number of arguments have been supplied.
+
+We also used Pipe with different other commands of Linux like
+Sort
+Uniq
+Head
+Tail
+More
+Less
