@@ -10,5 +10,7 @@ So linux is the kernel of the system and the tool that allows us to communicate 
 You can give simple orders to "the computer" and the shell communicates with the kernel to execute its orders.
 
 #### Two main shell families:
-***The text shell: Bash
-***The graphical shell: Window, KDE, Unity...
+
+*The text shell: Bash
+
+*The graphical shell: Window, KDE, Unity...
