@@ -11,11 +11,76 @@ This is a very useful command for tasks such as filtering text output or the com
 The Linux pipe and tee commands are two powerful tools you can use to manipulate files and streams.
 
 The Linux pipe and tee commands are used to copy files from one location to another. You can also use the Xargs command, which is used to automatically execute commands after a number of arguments have been supplied.
+===============
 
-We also used Pipe with different other commands of Linux like
-Sort
-Uniq
-Head
-Tail
-More
-Less
+ps -ef | grep httpd
+ls - 1 | wc l
+
+ex: Create files.
+==
+
+vi people.txt
+===================================
+N° NAME	GENDER	AGE	ADDRESS
+1 Alicia Fuentes	F	48	Walton Street, line 433
+2 Jo-Ting Losev	F	46	Hemenway Street, line 390
+3 Elena Edmonds	F	58	Elmwood Avenue, line 123
+4 Naydene Cabral	F	46	Winthrop Street, line 454
+5 Dato Rosengren	M	22	Mystic Street, line 477
+6 Fernanda Serrano	F	37	Redlands Road, line 392
+7 Emiliano Wenk	M	90	Paulding Street, line 490
+8 Larry Lapin	M	71	Atwill Road, line 298
+9 Jakub Gondos	M	61	Mitchell Street, line 187
+10 Derek Kazanin	M	55	Tennis Road, line 440
+11 Jens Tuimalealiifano	M	83	Rockwood Street, line 205
+12 Nikola Kadhi	M	75	Glenville Avenue, line 226
+13 Takayuki Dundar	M	27	Cornelia Street, line 61
+14 Njisane Arkhipova	M	73	Charles River Avenue, line 459
+=======================================================
+
+vi names.txt
+=====================
+Zhizhi 
+Suyoung 
+Aman 
+Bilel 
+Amel 
+Nooijer
+Tumurkhuleg 
+Alexa 
+Patrick	
+Zhizhi 
+Suyoung 
+Aman 
+Bilel 
+Bartlomiej 
+Ryan 
+Maialen 
+Boon 
+Deniz 	
+==================
+
+cat people.txt name.txt | sort
+cat names.txt | sort | uniq
+cat people.txt | head -10 
+cat people.txt | head -10 | tail 3
+
+The netstat command generates displays showing network status and protocol statistics.
+
+netstat
+netstat more
+netstat less
+
+Display the files
+
+ls > test.txt 
+cat test.txt
+
+ls | tee test.txt
+ls | tee test.txt | wc -l
+
+ls | xargs echo "hello"
+
+
+
+
