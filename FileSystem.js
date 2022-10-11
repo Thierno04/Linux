@@ -1,5 +1,5 @@
 
-<h1>FS Structure Description<h1>
+FS Structure Description
 
 /boot  ===> Having files use by boot loader(ex:grub)
 
