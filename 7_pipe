@@ -58,7 +58,7 @@ Ryan
 Maialen 
 Boon 
 Deniz 	
-==================
+===================
 
 cat people.txt names.txt | sort
 cat names.txt | sort | uniq
