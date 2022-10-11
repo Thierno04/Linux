@@ -12,7 +12,6 @@ Ex: (lsblk -f)
 XFS is 64bit high performance FS
 Works well with large files
 
-
 3) FS Structure Description
 
 /boot  ===> Having files use by boot loader(ex:grub)
