@@ -1,3 +1,47 @@
+ps (process status)
+
+Used to display all the running process in the linux system.
+
+ps - Shows the process of current shell
+
+PID - unique process ID
+TTY - terminal type of user logged in to
+TIME - amount of CPU in min and sec that process has been running
+CMD =  name of the command that launched the process
+
+----------------------------------------------
+
+Most widely used command
+
+To see all the running processes
+ps -e 
+ps -A
+ps -ef (for full format)
+
+----------------------------------------------
+
+To see all the running process in BSD (Berkeley Software Distribution) format in Linux
+Ideally it gives you more information
+
+ps aux
+
+----------------------------------------------------------------------------------
+To see the process by username
+
+ps -u user_name
+ps -G group_name
+
+--------------------------------------------------------------------------------------------------
+
+Process associated with terminals
+
+ps -T (current terminal only)
+ps -x (other terminal included)
+
+----------------
+To see the process tree
+
+ps -ejH 
 
 
 ex:
