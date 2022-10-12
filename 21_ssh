@@ -34,3 +34,27 @@ sudo systemctl enable sshd
 sudo systemctl stop sshd
 sudo systemctl restart sshd
 ssh user_name@host(IP/Domain_name)
+
+------------------------------------------------------------------------------------------
+
+Using password
+--------------
+Without password (by passing the ssh key)
+-----------------------------------------
+How we can setup the SSH to login into a Linux server and Accessing a Linux server remotely without any password.
+We will going to use below two SSH commands
+- ssh-keygen
+- ssh-copy-id
+
+1 - Generate a new SSH key pair on local machine.
+2 - Copy public key to remote machine.
+3 - Login to remote server without password.
+
+example:
+--------
+ssh-keygen
+ls .ssh
+ssh-copy-id ssh user_name@host(IP/Domain_name)
+ssh ssh user_name@host(IP/Domain_name)
+
+
