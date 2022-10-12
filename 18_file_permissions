@@ -19,8 +19,8 @@ Permissions (rwx) levels:
 ------------------------
 u - yourself (current user)
 g - group in which user belongs to
-o - others
-a - all
+o - others users
+a - all users
 
 binary        octal       permissions
 ------        ----        ----------
@@ -38,7 +38,7 @@ chmod u-r myfile.txt  ===> (removing permission)
 chmod ugo+r myfile.txt 
 chmod ugo-r myfile.txt
 chmod a+rwx myfile.txt  ===> (adding for all)
-chmod 756 myfile.txt  ===> (7 = user, 5 = group, 6 = others)
+chmod 756 myfile.txt  ===> (7 = user, 5 = group, 6 = others user)
 
 
 To create a user
