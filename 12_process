@@ -1,0 +1,24 @@
+
+
+ex:
+==
+ps
+ps -e
+ps -ef | more
+ps -ef | less
+ps aux | more
+ps -ef | grep httpd
+systemctl status httpd
+systemctl start httpd
+systemctl stop httpd
+systemctl restart httpd
+systemctl enable httpd
+systemctl disable httpd
+systemctl reload httpd
+
+ps -u root
+ps -u user | more
+ps -efH
+ps -ejH | grep httpd
+systemctl status httpd
+
