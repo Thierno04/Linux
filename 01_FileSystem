@@ -28,7 +28,7 @@ Works well with large files
 
 /proc   ===> Running process
 
-/usr/lib   ===> C Program library files needed by commnds and apps
+/usr/lib   ===> C Program library files needed by commands and apps
 
 /tmp   ===> Having temporary
 
