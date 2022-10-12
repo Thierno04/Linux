@@ -1,0 +1,36 @@
+SSH or Secure Shell is a network communication protocol that enables two computers/devices to communicate and share data.
+
+More about SSH:
+---------------
+SSH is also a command in linux
+
+It is used to access an another linux server or accessing a linux server from a terminal.
+
+Syntax: ssh user_name@host(IP/Domain_name)
+------
+
+To use SSH, ssh service must be installed on linux server.
+We can check using
+
+rpm -aq | grep ssh, or
+check the /etc/ssh/sshd_config
+
+If not already installed then install below two
+install openssh-clients openssh-server
+
+and now enable the ssh or check if it is enable using
+systemctl status sshd.
+
+example: Access a linux server from another server
+-------
+
+file /etc/ssh/sshd_config
+rpm -qa | grep sshd
+ifconfig or ip addr
+sudo apt update
+sudo apt install openssh-server openssh-client
+sudo systemctl status sshd
+sudo systemctl enable sshd
+sudo systemctl stop sshd
+sudo systemctl restart sshd
+ssh user_name@host(IP/Domain_name)
