@@ -23,7 +23,7 @@ dmesg command
 
 dmesg | grep search_string
 
-You can search related to 
+We can search related to 
 
 memory
 usb
