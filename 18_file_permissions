@@ -1,0 +1,45 @@
+chmod hindi, chmod linux, chmod command in linux,
+
+Here I have covered everything about Linux permissions for files and folders and how we can change permissions very easily using CHMOD command.
+
+How to check and understand issues with denied permissions.
+How to Check File and Folder Permissions in Linux
+Types of permissions in Linux
+Scope of users and permissions
+How to Change Permissions in Linux Using the CHMOD Command
+How to add or remove permissions
+
+example:
+--------
+r - read
+w - write
+x - execute
+
+Permissions (rwx) levels:
+------------------------
+u - yourself (current user)
+g - group in which user belongs to
+o - others
+a - all
+
+binary        octal       permissions
+------        ----        ----------
+000            0            ---
+001            1            --x
+010            2            -w-
+011            3            -wx-
+100            4            r--
+101            5            r-x
+110            6            rw-
+111            7            rwx
+
+chmod u+r myfile.txt
+chmod u-r myfile.txt
+chmod ugo+r myfile.txt
+chmod ugo-r myfile.txt
+chmod a+rwx myfile.txt
+chmod 756 myfile.txt
+ 
+7 ==> user
+5 ==> group
+6 ==> others
