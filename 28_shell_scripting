@@ -66,9 +66,11 @@ addition() {
 addition 20 30
 
 ------------------------------------------
+
 #!/bin/bash
 echo ===========check internet=============
-ping -c1 www -eq 0]
+ping -c1 www.google.com &> /dev/null
+if [$? -eq 0]
 then
      echo "Connection successfull"
 else
