@@ -14,11 +14,26 @@ Bourne Again Shell(Bash)
 Korn shell
 C shell
 TCsh Shell
+-----------------------------
+Types of operators:
+-------------------------------------
+Equal                          -eq/==
+----------------------------------------
+Greaterthanorequalto           -ge
+---------------------------------------
+Lessthanorequalto              -le
+-------------------------------------
+Not Equal                      -ne/!=
+--------------------------------------
+Greater Than                   -gt
+------------------------------------
+Less Than                      -lt
+-------------------------------------
+
 
 -----------------------------------
-example:
--------
-
+Variable in script
+------------------
 Variable:
 ---------
 #!/bin/bash
@@ -31,6 +46,19 @@ ls -ltr
 ./variable.sh
 ------------------------------------------
 
+How to take input from user ?
+------------------------
+if-else:
+------
+if [$age -eq 18]
+then
+    echo "You are eligible to vote"
+else
+    echo "Sorry you are not eligible to vote"
+fi
+
+example:
+---------
 user input:
 ----------
 #!/bin/bash
@@ -114,6 +142,14 @@ chmod u+x filter_iterate.sh
 ls -ltr
 ls -ltr | awk '{print $9}'
 alias dir="ls -ltr | awk '{print | $9}'"
-dir
-ls -ltr
 -------------------------------------------------------
+
+Alias:
+-----
+alias <short_name>="<your_command>"
+example:
+------
+alias dir="ls -ltr | awk '{print | $9}'"
+alias pchron="ps -ef | grep"
+dir
+pchron
