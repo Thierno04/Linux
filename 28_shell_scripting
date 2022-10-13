@@ -11,6 +11,7 @@
 * How to make a variable constant
 * User of logger to log message to syslog under var/log/messages
 
+
   Display or get the name of the script
   ------------------------------------
   echo "The name of the script is: ${0}"
@@ -76,3 +77,25 @@ then
 else
      echo "Connection failed"
 fi
+
+----------------------------------------------
+  Shell Variables:
+  --------------
+  RANDOM: A random integer between 0 and 32767 is generated.
+  UID: User ID of the user logged in.
+  
+  vi user_check.sh
+  --------------
+    #!/bin/bash
+    if [[ $UID -eq 0 ]]
+    then
+       echo "You are root"
+    else
+       echo "You are not root"
+    fi
+-----------------------------------------
+  chmod 777 user_check.sh
+  ./user_check.sh
+  su - root
+  /home/user/user_check.sh
+  
