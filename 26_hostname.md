@@ -1,8 +1,7 @@
- How to change hostname ubuntu
+ # How to change hostname ubuntu
  
- example:
- -------
- 
+ ###### example:
+```bash
  hostname
  sudo systemctl set-hostname my-laptop
  exec bash
@@ -10,3 +9,4 @@
  cat /etc/hosts
  sudo nano /etc/hosts
  ping hostname
+ ```
