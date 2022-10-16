@@ -1,11 +1,11 @@
-What a ping command can do ?
---------------------------------
-1) check network connectivity
-2) check internet connection
-3) check network interface card
-4) check latency on network
-5) DNS resolution.
+# What a ping command can do ?
 
+- check network connectivity
+- check internet connection
+- check network interface card
+- check latency on network
+- DNS resolution.
+```bash
 ping linux         
 ping command         
 linux ping         
@@ -27,9 +27,9 @@ use of ping command
 what is ping        
 how ping works         
 network troubleshooting
-
-example:
--------
+```
+###### example:
+```bash
 ping www.google.com
 ping -c 3 www.google.com 
 ping -c 5 -q www.google.com 
@@ -37,13 +37,13 @@ ping -i 2 www.google.com
 ping -f www.google.com
 ping -s 500 www.google.com 
 ping -w 10 www.google.com 
-
-got into root:
-----------
+```
+#### got into root:
+```bash
 su - 
 ping localhost
 ping IP
 ping -f localhost
 ping -D localhost
 ping -a localhost
-
+```
