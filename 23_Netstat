@@ -32,6 +32,7 @@ netstat -s => how to see statistics by protocol?
 
 example 2:
 -------
+```bash
 netstat -putan | grep :22
 netstat
 netstat | more
@@ -45,4 +46,4 @@ netstat -atlnp | more
 netstat -r
 netstat -i
 netstat -s
-
+```
