@@ -28,4 +28,4 @@ du -ahc -BK /home/user/folder/
 free -h
 free -h -s 3
 free -h -c 4
-```bash
+```
