@@ -30,4 +30,4 @@ ps -ef | grep httpd
 pidof httpd
 kill -1 (id)
 ps -ef | grep httpd
-```bash
+```
