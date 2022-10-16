@@ -1,7 +1,7 @@
-nano file editor
-================
+# nano editor
+
 ex: nano myfile.txt
-================
+```bash
  ctrl + O ==> Write out
- Enter
  ctrl + X ==> Exit
+```
