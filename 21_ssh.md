@@ -44,9 +44,9 @@ We will going to use below two SSH commands
 ssh-keygen
 ssh-copy-id
 ```
-* - Generate a new SSH key pair on local machine.
-* - Copy public key to remote machine.
-* - Login to remote server without password.
+- Generate a new SSH key pair on local machine.
+- Copy public key to remote machine.
+- Login to remote server without password.
 
 ###### example:
 ```bash
@@ -54,5 +54,5 @@ ssh-keygen
 ls .ssh
 ssh-copy-id ssh user_name@host(IP/Domain_name)
 ssh ssh user_name@host(IP/Domain_name)
-```bash
+```
 
