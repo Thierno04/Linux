@@ -55,7 +55,7 @@ May add
 * Start and enable vsftpd service
 *  systemctl start/enable/ vsftpd.service
 * Stop firewalld or allow FTP to firewalld
-```bash
+```
 We will temporarily stop firewalld
 ```bash
   systemctl stop firewalld
