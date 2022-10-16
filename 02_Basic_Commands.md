@@ -1,3 +1,5 @@
+# Basic Commands
+```bash
 pwd: Print Working Directory.
 
 ls: View contents or attributes.
@@ -49,3 +51,4 @@ tail: Displays the tail of text in the file. (ex: tail -2 textfile.txt).
 sort: Allows you to sort the words in the textfile. (ex: sort textfile.txt).
 
 uniq: Allows to avoid the repetition of the text. (ex: sort textfile.txt | uniq).
+```
