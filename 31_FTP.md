@@ -9,7 +9,7 @@ FTP also used to upload/download files from websites and servers.
 ```bash
                       FTP
 CLIENT (ftp) ---------------------->  SERVER (vsftpd)
-Server1                               Server1
+Server1                               Server2
 ```
 #### Remote Servers FTP Setup:
 
@@ -53,7 +53,7 @@ May add
 ```
 ```bash
 * Start and enable vsftpd service
-*  systemctl start/enable/ vsftpd.service
+* systemctl start/enable/ vsftpd.service
 * Stop firewalld or allow FTP to firewalld
 ```
 We will temporarily stop firewalld
