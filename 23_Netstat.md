@@ -8,16 +8,21 @@ TCP UDP Protocol
 No. of connection on a IP or a Port using Netstat command
 
 To identify no. of connection on a given port or IP.
+```bash
 netstat -putan | grep <PORT/IP>
-
+netstat -putan | grep :22
+```
 example 1:
 -------
+```bash
 netstat -putan | grep :22
-
+```
 netstat command:
 ---------------
+```bash
 (t-tcp, u-udp, n-numerical addr, l-listening port, p-PID programname)
-
+```
+```bash
 netstat -a => to see all the sockets
 netstat -at => list all the TCP ports
 netstat -6at => list all the TCP v6 ports
@@ -29,7 +34,7 @@ netstat -r => to view the routing table
 netstat -i => to get the list of all the interface
 netstat -ap | grep <process_name> => which port a process is using
 netstat -s => how to see statistics by protocol?
-
+```
 example 2:
 -------
 ```bash
