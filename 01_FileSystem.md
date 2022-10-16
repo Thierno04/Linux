@@ -1,19 +1,19 @@
-1) Types of File System
-
+# Types of File System
+```bash
 * ext3
 * ext4
 * XFS
 * FAT
 * BTRFS etc...
 Ex: (lsblk -f)
-
-2) XFS(Extents File System)
+```
+### XFS(Extents File System)
 
 XFS is 64bit high performance FS
 Works well with large files
 
-3) FS Structure Description
-
+### FS Structure Description
+```bash
 /boot  ===> Having files use by boot loader(ex:grub)
 
 /dev   ===> System devices files(ex:speaker, keyboard etc...)
@@ -43,3 +43,4 @@ Works well with large files
 /mnt   ===> To mount external filesytem(ex: NFS)
 
 /media   ===> For CDROM Mounts
+```
