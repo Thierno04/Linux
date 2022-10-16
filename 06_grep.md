@@ -1,4 +1,4 @@
-I have covered the following cases of grep command usage
+# I have covered the following cases of grep command usage
 
 To ignore the upper and lower case while searching using grep command in Linux
 To search everything except given pattern/keyword using grep command in Linux
@@ -17,17 +17,15 @@ Suppose we have 100 files in a directory (dirA) and we need to search a keyword 
 We can use egrep command for the multiple keywords search using grep command in Linux
 If you just wanna search but don't want to print on terminal or If you want to suppress error message using grep command in Linux
 
-ex: 
-===
+### ex: 
+```bash
 vi myfile
-=========================================
 id, firstname, lastname, email, profession
 1, John, Doe, john@gmail.com, frontend 
 2, Paul, Dupont, paul@gmail.com, backend
 3, Pierre, Duran, pierre@gmail.com, devOps
-==========================================
-cat myfile
-
+```
+```bash
 grep John myfile
 grep -i John myfile (To ignore the upper and lowercase while searching)
 grep -c John myfile (To print how many times {count} given keyword present in file)
@@ -35,9 +33,12 @@ grep -w John myfile (To search for exact match of given keyword in a file)
 grep -n John myfile (To print the line no. of matches of given keyword in a file)
 grep Pierre file1 file2...
 ls | grep John 
+```
 
-Here is link : https://docs.google.com/presentation/d/1KimpyPD9_RYY2-zjMt9V1_2s9e0QPSnrYsk5F1jTrDs/edit#slide=id.g156304c002d_0_101
-
+### Here is link : 
+```bash
+https://docs.google.com/presentation/d/1KimpyPD9_RYY2-zjMt9V1_2s9e0QPSnrYsk5F1jTrDs/edit#slide=id.g156304c002d_0_101
+```
 
 
 
