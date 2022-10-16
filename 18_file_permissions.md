@@ -78,7 +78,7 @@ sudo less shadow
 sudo su -i -u user
 or
 su - user
-```bash
+```
 
 * To change ownership
 ```bash
