@@ -7,19 +7,19 @@ Set of defined Rules & Values to build an environment.
 
 To set the environment variable temporary
 ```bash
-        export TESTVAR=1
+export TESTVAR=1
 ```
 To set the environment variable permanently 
 ```bash
-        vi .bashrc
-        TESTVAR='123'
-        export TESTVAR  
+vi .bashrc
+TESTVAR='123'
+export TESTVAR  
 ```
 To set the global environment variable  permanently 
 ```bash
-        vi /etc/profile 
-        TESTVAR='123'
-        export TESTVAR
+vi /etc/profile 
+TESTVAR='123'
+export TESTVAR
 ```
 ###### ex:
 ```bash
