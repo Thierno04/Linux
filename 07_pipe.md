@@ -1,26 +1,25 @@
-What is a Pipe ?
-==============
-Pipe are used to redirect a stream from one program to another program.
+# What is a Pipe ?
 
-The output of one command redirect it to the input of another.
+* Pipe are used to redirect a stream from one program to another program.
 
-The pipe and tee commands are used to pipe two streams of data together and the xargs command is used to process a list of files one at a time. This is a very useful command for scripting and on Linux systems it can be used to load libraries, parse configuration files or process command line arguments.
+* The output of one command redirect it to the input of another.
 
-This is a very useful command for tasks such as filtering text output or the combined operations of multiple commands in a single line of code.
+* The pipe and tee commands are used to pipe two streams of data together and the xargs command is used to process a list of files one at a time. This is a very useful command for scripting and on Linux systems it can be used to load libraries, parse configuration files or process command line arguments.
 
-The Linux pipe and tee commands are two powerful tools you can use to manipulate files and streams.
+* This is a very useful command for tasks such as filtering text output or the combined operations of multiple commands in a single line of code.
 
-The Linux pipe and tee commands are used to copy files from one location to another. You can also use the Xargs command, which is used to automatically execute commands after a number of arguments have been supplied.
-===============
+* The Linux pipe and tee commands are two powerful tools you can use to manipulate files and streams.
 
+### The Linux pipe and tee commands are used to copy files from one location to another. You can also use the Xargs command, which is used to automatically execute commands after a number of arguments have been supplied.
+
+```bash
 ps -ef | grep httpd
 ls - 1 | wc l
-
-ex: Create files.
-==
+```
+#### ex:
 
 vi people.txt
-===================================
+```bash
 N° NAME	GENDER	AGE	ADDRESS
 1 Alicia Fuentes	F	48	Walton Street, line 433
 2 Jo-Ting Losev	F	46	Hemenway Street, line 390
@@ -36,10 +35,10 @@ N° NAME	GENDER	AGE	ADDRESS
 12 Nikola Kadhi	M	75	Glenville Avenue, line 226
 13 Takayuki Dundar	M	27	Cornelia Street, line 61
 14 Njisane Arkhipova	M	73	Charles River Avenue, line 459
-=======================================================
+```
 
 vi names.txt
-=====================
+```bash
 Zhizhi 
 Suyoung 
 Aman 
@@ -58,29 +57,31 @@ Ryan
 Maialen 
 Boon 
 Deniz 	
-===================
-
+```
+```bash
 cat people.txt names.txt | sort
 cat names.txt | sort | uniq
 cat people.txt | head -10 
 cat people.txt | head -10 | tail 3
-
+```
 The netstat command generates displays showing network status and protocol statistics.
-
+```bash
 netstat
 netstat more
 netstat less
-
+```
 Display the files
-
+```bash
 ls > test.txt 
 cat test.txt
-
+```
+```bash
 ls | tee test.txt
 ls | tee test.txt | wc -l
-
+```
+```bash
 ls | xargs echo "hello"
-
+```
 
 
 
