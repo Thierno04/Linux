@@ -1,13 +1,13 @@
-vi editor
-========
+# vi editor
+
 A text editor which enables you to create and manipulate data in linux file
 
 ===============
 ex: vi myfile.txt
 ===============
 
-Most common keys
-
+### Most common keys
+```bash
 i - insert
 
 O - insert ont next line
@@ -33,3 +33,4 @@ backspaace -
 / - forward search
 
 ? - backward search
+```
